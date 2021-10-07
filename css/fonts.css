@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/ubuntu-medium-webfont.woff2') format('woff2'),
+        url('../fonts/ubuntu-medium-webfont.woff') format('woff'),
+        url('ubuntu-medium-webfont.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/ubuntu-regular-webfont.woff2') format('woff2'),
+        url('../fonts/ubuntu-regular-webfont.woff') format('woff'),
+        url('../fonts/ubuntu-regular-webfont.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/ubuntu-bold-webfont.woff2') format('woff2'),
+        url('../fonts/ubuntu-bold-webfont.woff') format('woff'),
+        url('../fonts/ubuntu-bold-webfont.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Insaniburger';
+    src: url('../fonts/insaniburger.woff2') format('woff2'),
+        url('../fonts/insaniburger.woff') format('woff'),
+        url('../fonts/insaniburger.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}

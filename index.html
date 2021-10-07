@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macdonald's</title>
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__info info">
+                <div class="container info__container">
+                    <ul class="info__list">
+                        <li class="info__link"><a href="#">Студия Хэппи</a></li>
+                        <li class="info__link"><a href="#">Обратная связь</a></li>
+                        <li class="info__link"><a href="#">Для прессы</a></li>
+                        <li class="info__link"><a href="#">Сотрудничество</a></li>
+                    </ul>
+
+                    <a href="#" class="info__geo">Москва</a>
+                </div>
+            </div>
+            <!-- /.header__info -->
+
+            <div class="header__container container">
+                <div class="header__menu menu">
+                    <div class="header__navigation">
+                        <a href="index.html" class="header__logo">
+                            <img src="img/logo.png" alt="Logo">
+                        </a>
+                        <!-- /.header__logo -->
+
+                        <div class="header__wrapper">
+                            <button type='button' class="menu__icon">
+                                <span></span>
+                            </button>
+
+                            <nav class="menu__body">
+                                <ul class="menu__list">
+                                    <li class="menu__item">
+                                        <a href="#" class="menu__link">Меню</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="#" class="menu__link">Мы на карте</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="#" class="menu__link">Новинки и акции</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="#" class="menu__link">Качество</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <!-- /.menu__body -->
+
+                            <button type="button" class="header__cart">Корзина</button>
+                        </div>
+                        <!-- /.header__wrapper -->
+                    </div>
+                    <!-- /.header__navigation -->
+                </div>
+                <!-- /.header__menu -->
+            </div>
+        </header>
+        <!-- /.header -->
+
+        <main class=" page">
+            <div class="order">
+                <form action="" class="order__form">
+                    <div class="order__description description">
+                        <div class="description__photo">
+                            <img src="img/order/01.png" alt="Биг Мак">
+                        </div>
+                        <div class="description__title">Биг Мак</div>
+                        <div class="description__text">Большой бургер с двумя рублеными бифштексами из 100% говядины на
+                            булочке с кунжутом, поджаренной в тостере, маринованными огурчиками, луком, свежим салатом
+                            «Айсберг», ломтиком плавленого сыра «Чеддер» и специальным соусом «Биг Мак».</div>
+                    </div>
+                    <div class="order__addition addition-order">
+                        <div class="addition-order__wrapper">
+                            <div class="addition-order__top">
+                                <div class="addition-order__products products" id="specialRrequests">
+                                    <label for="specialRrequests" class="products__title">Особые пожелания</label>
+
+                                    <div class="products__column">
+                                        <div class="products__item">
+                                            <input type="checkbox" name="specialRrequests" id="salad"
+                                                class="products__checkbox">
+                                            <label for="salad">Убрать Салат</label>
+                                        </div>
+
+                                        <div class="products__item">
+                                            <input type="checkbox" name="specialRrequests" id="cheese"
+                                                class="products__checkbox">
+                                            <label for="cheese">Убрать Сыр</label>
+                                        </div>
+
+                                        <div class="products__item">
+                                            <input type="checkbox" name="specialRrequests" id="salt"
+                                                class="products__checkbox">
+                                            <label for="salt">Убрать Соль</label>
+                                        </div>
+
+                                        <div class="products__item">
+                                            <input type="checkbox" name="specialRrequests" id="steak"
+                                                class="products__checkbox">
+                                            <label for="steak">Убрать Бифштекс</label>
+                                        </div>
+
+                                        <div class="products__item">
+                                            <input type="checkbox" name="specialRrequests" id="sauce"
+                                                class="products__checkbox">
+                                            <label for="sauce">Убрать Соус Биг Мак</label>
+                                        </div>
+
+                                        <div class="products__item">
+                                            <input type="checkbox" name="specialRrequests" id="onion"
+                                                class="products__checkbox">
+                                            <label for="onion">Убрать Лук восст.</label>
+                                        </div>
+
+                                        <div class="products__item">
+                                            <input type="checkbox" name="specialRrequests" id="addCheese"
+                                                class="products__checkbox">
+                                            <label for="addCheese">Дополнительно Сыр</label>
+                                        </div>
+
+                                        <div class="products__item">
+                                            <input type="checkbox" name="specialRrequests" id="cucumber"
+                                                class="products__checkbox">
+                                            <label for="cucumber">Убрать Огурец маринов.</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="addition-order__products products" id="drinks">
+                                    <label for="drinks" class="products__title">Напиток</label>
+
+                                    <div class="products__column">
+                                        <div class="products__item">
+                                            <input type="radio" name="drinks" id="cola" class="products__radio">
+                                            <label for="cola">Кока-Кола</label>
+                                        </div>
+
+                                        <div class="products__item">
+                                            <input type="radio" name="drinks" id="colaZero" class="products__radio">
+                                            <label for="colaZero">Кока-Кола Зеро</label>
+                                        </div>
+
+                                        <div class="products__item">
+                                            <input type="radio" name="drinks" id="drink1" class="products__radio">
+                                            <label for="drink1">Кока-Кола Зеро</label>
+                                        </div>
+
+                                        <div class="products__item">
+                                            <input type="radio" name="drinks" id="drink2" class="products__radio">
+                                            <label for="drink2">Кока-Кола Зеро</label>
+                                        </div>
+
+                                        <div class="products__item">
+                                            <input type="radio" name="drinks" id="drink3" class="products__radio">
+                                            <label for="drink3">Кока-Кола Зеро</label>
+                                        </div>
+
+                                        <div class="products__item">
+                                            <input type="radio" name="drinks" id="americano" class="products__radio">
+                                            <label for="americano">Американо большой</label>
+                                        </div>
+
+                                        <div class="products__item">
+                                            <input type="radio" name="drinks" id="sprite" class="products__radio">
+                                            <label for="sprite">Спрайт</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="addition-order__bottom">
+                                <div class="addition-order__result result">
+                                    <div class="result__text">Итого:</div>
+                                    <div class="result__price">95.99</div>
+                                </div>
+                                <div class="result__row">
+                                    <div class="result__quantity"><span>1</span></div>
+                                    <button class="result__btn">Оформить заказ</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- /.order -->
+
+            <div class="main-section">
+                <div class="main-section__product">
+                    <div class="main-section__img">
+                        <img src="img/main-section/01.png" alt="Big Mac">
+                    </div>
+                </div>
+                <!-- /.main-section__product -->
+
+                <div class="container main-section__container">
+                    <div class="main-section__content main-content">
+                        <div class="main-content__label">Акция “МАК ДЛЯ ВСЕХ”</div>
+                        <h1 class="main-content__title">Биг Мак каждому!</h1>
+                        <p class="main-content__text">Лучший бургер по баснословно низкой цене.<br>
+                            С 1 26 Марта успейте забрать Биг Мак со скидкой<br> и получите молочный коктейль в подарок.
+                        </p>
+                        <div class="main-content__old-price old-price">299.99</div>
+                        <div class="main-content__row">
+                            <div class="main-content__price price">95.99</div>
+                            <button type="button" class="buy-btn">Купить</button>
+                        </div>
+                    </div>
+                    <!-- /.main-section__content -->
+                </div>
+            </div>
+            <!-- /.main-section -->
+
+            <div class="reasons">
+                <div class="reasons__container container">
+                    <div class="reasons__title">Почему именно Биг Мак?</div>
+                    <div class="reasons__line line"></div>
+                    <p class="reasons__text">Мы считаем, что мак является одним из наших лучших блюд которое каждый
+                        обязан попробовать.</p>
+                    <div class="reasons__row">
+                        <div class="reasons__block block-reasons">
+                            <div class="block-reasons__icon">
+                                <img src="img/reasons/01.svg" alt="Натуральность">
+                            </div>
+                            <div class="block-reasons__title">Натуральность</div>
+                            <p class="block-reasons__text">Наш Мак состоит из 100% натуральной говядины на булочке с
+                                кунжутом,<br> поджаренной в тостере, маринованными огурчиками, луком, свежим салатом
+                                «Айсберг».</p>
+                        </div>
+
+                        <div class="reasons__block block-reasons">
+                            <div class="block-reasons__icon">
+                                <img src="img/reasons/02.svg" alt="Выгода">
+                            </div>
+                            <div class="block-reasons__title">Выгода</div>
+                            <p class="block-reasons__text">Благодаря акции на Мак вы сможете<br> приобрести не только
+                                этот вкуснейший бургер но так же выбрать комбо наборы с “Мак Комбо” которые вы
+                                получите со скидкой до 50%</p>
+                        </div>
+
+                        <div class="reasons__block block-reasons">
+                            <div class="block-reasons__icon">
+                                <img src="img/reasons/03.svg" alt="Все для друзей">
+                            </div>
+                            <div class="block-reasons__title">Все для друзей</div>
+                            <p class="block-reasons__text">При покупке от 3 маков вы получаете<br>
+                                бесплатную пачку хрустящей картошки фри и латте к каждому из них.<br>
+                                Делиться приятно :)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.reasons -->
+
+            <div class="maccombo">
+                <div class="maccombo__title">МакКомбо</div>
+                <div class="maccombo__line line"></div>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="maccombo__set set">
+                                <div class="set__photo">
+                                    <img src="img/maccombo/01.png" alt="Big Mac MacCombo Big">
+                                </div>
+
+                                <div class="set__description">
+                                    <div class="swiper-pagination set__pagination"></div>
+                                    <div class="set__title">Биг Мак МакКомбо Большой</div>
+                                    <div class="set__text">
+                                        Большой МакКОМБО с Биг Маком®, большой порцией картофеля и одним
+                                        холодным (0,5) или горячим (0,3 или 0,4) напитком. Цена за МакКомбо
+                                        указана в комплектации со стандартным Горячим (Кофе 0,2, Чай 0,2) или
+                                        Холодным напитком 0,4 л. (кроме Молочных Коктейлей) и Стандартной
+                                        порцией Картофеля Фри. При изменении комплектации цена МакКомбо может
+                                        измениться.
+                                    </div>
+                                    <div class="set__line"></div>
+                                    <div class="set__row">
+                                        <div class="set__price price">95.99</div>
+                                        <button type="button" class="set__btn buy-btn">Купить</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="maccombo__set set">
+                                <div class="set__photo">
+                                    <img src="img/main-section/01.png" alt="Big Mac MacCombo Big">
+                                </div>
+
+                                <div class="set__description">
+                                    <div class="swiper-pagination set__pagination"></div>
+                                    <div class="set__title">Биг Мак МакКомбо Большой</div>
+                                    <div class="set__text">
+                                        Большой МакКОМБО с Биг Маком®, большой порцией картофеля и одним
+                                        холодным (0,5) или горячим (0,3 или 0,4) напитком. Цена за МакКомбо
+                                        указана в комплектации со стандартным Горячим (Кофе 0,2, Чай 0,2) или
+                                        Холодным напитком 0,4 л. (кроме Молочных Коктейлей) и Стандартной
+                                        порцией Картофеля Фри. При изменении комплектации цена МакКомбо может
+                                        измениться.
+                                    </div>
+                                    <div class="set__line"></div>
+                                    <div class="set__row">
+                                        <div class="set__price price">95.99</div>
+                                        <button type="button" class="set__btn buy-btn">Купить</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="maccombo__set set">
+                                <div class="set__photo">
+                                    <img src="img/maccombo/01.png" alt="Big Mac MacCombo Big">
+                                </div>
+
+                                <div class="set__description">
+                                    <div class="swiper-pagination set__pagination"></div>
+                                    <div class="set__title">Биг Мак МакКомбо Большой</div>
+                                    <div class="set__text">
+                                        Большой МакКОМБО с Биг Маком®, большой порцией картофеля и одним
+                                        холодным (0,5) или горячим (0,3 или 0,4) напитком. Цена за МакКомбо
+                                        указана в комплектации со стандартным Горячим (Кофе 0,2, Чай 0,2) или
+                                        Холодным напитком 0,4 л. (кроме Молочных Коктейлей) и Стандартной
+                                        порцией Картофеля Фри. При изменении комплектации цена МакКомбо может
+                                        измениться.
+                                    </div>
+                                    <div class="set__line"></div>
+                                    <div class="set__row">
+                                        <div class="set__price price">95.99</div>
+                                        <button type="button" class="set__btn buy-btn">Купить</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="maccombo__set set">
+                                <div class="set__photo">
+                                    <img src="img/main-section/01.png" alt="Big Mac MacCombo Big">
+                                </div>
+
+                                <div class="set__description">
+                                    <div class="swiper-pagination set__pagination"></div>
+                                    <div class="set__title">Биг Мак МакКомбо Большой</div>
+                                    <div class="set__text">
+                                        Большой МакКОМБО с Биг Маком®, большой порцией картофеля и одним
+                                        холодным (0,5) или горячим (0,3 или 0,4) напитком. Цена за МакКомбо
+                                        указана в комплектации со стандартным Горячим (Кофе 0,2, Чай 0,2) или
+                                        Холодным напитком 0,4 л. (кроме Молочных Коктейлей) и Стандартной
+                                        порцией Картофеля Фри. При изменении комплектации цена МакКомбо может
+                                        измениться.
+                                    </div>
+                                    <div class="set__line"></div>
+                                    <div class="set__row">
+                                        <div class="set__price price">95.99</div>
+                                        <button type="button" class="set__btn buy-btn">Купить</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- /.maccombo -->
+
+            <div class="addition">
+                <div class="addition__container container">
+                    <div class="addition__title">Дополните свой БигМак</div>
+                    <div class="addition__line line"></div>
+                    <div class="addition__row">
+                        <div class="addition__item item-addition">
+                            <div class="item-addition__wrapper">
+                                <div class="item-addition__img">
+                                    <img src="img/addition/01.png" alt="Хорошая пара с Лате">
+                                </div>
+                                <div class="item-addition__title">Хорошая пара с Лате</div>
+                                <div class="item-addition__subtitle">Два Латте 0,3 по специальной цене!</div>
+                            </div>
+                            <button type="button" class="item-addition__btn">
+                                <span>120</span>
+                                <p></p>
+                            </button>
+                        </div>
+
+                        <div class="addition__item item-addition">
+                            <div class="item-addition__wrapper">
+                                <div class="item-addition__img">
+                                    <img src="img/addition/02.png" alt="Айриш Капучино">
+                                </div>
+                                <div class="item-addition__title">Айриш Капучино</div>
+                                <div class="item-addition__subtitle">Классический капучино с воздушной молочной пенкой и
+                                    сиропом со вкусом сливочного ликера...</div>
+                            </div>
+                            <button type="button" class="item-addition__btn">
+                                <span>158</span>
+                                <p></p>
+                            </button>
+                        </div>
+
+                        <div class="addition__item item-addition">
+                            <div class="item-addition__wrapper">
+                                <div class="item-addition__img">
+                                    <img src="img/addition/03.png" alt="Американо Большой">
+                                </div>
+                                <div class="item-addition__title">Американо Большой</div>
+                                <div class="item-addition__subtitle">Кофе черный.</div>
+                            </div>
+                            <button type="button" class="item-addition__btn">
+                                <span>128</span>
+                                <p></p>
+                            </button>
+                        </div>
+
+                        <div class="addition__item item-addition">
+                            <div class="item-addition__wrapper">
+                                <div class="item-addition__img">
+                                    <img src="img/addition/04.png" alt="Ягодный Пунш">
+                                </div>
+                                <div class="item-addition__title">Ягодный Пунш</div>
+                                <div class="item-addition__subtitle">Встречайте — снова в меню! Горячий напиток на
+                                    основе натурального пюре из ягод...</div>
+                            </div>
+                            <button type="button" class="item-addition__btn">
+                                <span>99</span>
+                                <p></p>
+                            </button>
+                        </div>
+
+                        <div class="addition__item item-addition">
+                            <div class="item-addition__wrapper">
+                                <div class="item-addition__img">
+                                    <img src="img/addition/05.png" alt="Coca Cola">
+                                </div>
+                                <div class="item-addition__title">Кока-Кола средняя</div>
+                                <div class="item-addition__subtitle">
+                                    Прохладительный газированный напиток «Кока-Кола»®.
+                                </div>
+                            </div>
+                            <button type="button" class="item-addition__btn">
+                                <span>35.99</span>
+                                <p></p>
+                            </button>
+                        </div>
+
+                        <div class="addition__item item-addition">
+                            <div class="item-addition__wrapper">
+                                <div class="item-addition__img">
+                                    <img src="img/addition/06.png" alt="Соус Чесночный">
+                                </div>
+                                <div class="item-addition__title">Соус Чесночный</div>
+                                <div class="item-addition__subtitle">Пикантный соус с нежным сливочно-чесночным вкусом.
+                                </div>
+                            </div>
+                            <button type="button" class="item-addition__btn">
+                                <span>30</span>
+                                <p></p>
+                            </button>
+                        </div>
+
+                        <div class="addition__item item-addition">
+                            <div class="item-addition__wrapper">
+                                <div class="item-addition__img">
+                                    <img src="img/addition/07.png" alt="Соус Сырный">
+                                </div>
+                                <div class="item-addition__title">Соус Сырный</div>
+                                <div class="item-addition__subtitle">Соус со вкусом сыра</div>
+                            </div>
+                            <button type="button" class="item-addition__btn">
+                                <span>30</span>
+                                <p></p>
+                            </button>
+                        </div>
+
+                        <div class="addition__item item-addition">
+                            <div class="item-addition__wrapper">
+                                <div class="item-addition__img">
+                                    <img src="img/addition/08.png" alt="Соус Терияки">
+                                </div>
+                                <div class="item-addition__title">Соус Терияки</div>
+                                <div class="item-addition__subtitle">Классический солоновато-сладкий соус  Азиатской
+                                    кухни на основе соевого соуса.</div>
+                            </div>
+                            <button type="button" class="item-addition__btn">
+                                <span>30</span>
+                                <p></p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.addition -->
+        </main>
+        <!-- /.page -->
+
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__top">
+                    <div class="footer__cookies cookies">
+                        <div class="footer__logo">
+                            <img src="img/logo.png" alt="Logo">
+                        </div>
+                        <div class="cookies__text">Мы используем cookies, чтобы вам было удобнее пользоваться сайтом.
+                            Продолжая пользоваться сайтом, вы принимаете условия обработки персональных данных</div>
+                    </div>
+
+                    <div class="footer__row">
+                        <div class="footer__contacts">
+                            <div class="footer__title">О нас</div>
+                            <ul class="footer__list">
+                                <li><a href="#" class="footer__link">МакДоставка</a></li>
+                                <li><a href="#" class="footer__link">Новости</a></li>
+                                <li><a href="#" class="footer__link">Франчайзинг</a></li>
+                                <li><a href="#" class="footer__link">Благотворительность</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__contacts">
+                            <div class="footer__title">Контакты</div>
+                            <ul class="footer__list">
+                                <li><a href="#" class="footer__link">Обратная связь</a></li>
+                                <li><a href="#" class="footer__link">Для прессы</a></li>
+                                <li><a href="#" class="footer__link">Сотрудничество</a></li>
+                                <li><a href="#" class="footer__link">Макдоналдс в России</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer__subscribe subscribe">
+                        <div class="footer__title">Подписывайтесь на рассылку</div>
+                        <a href="#" class="subscribe__link"><img src="img/footer/vk.svg" alt="VK"></a>
+                        <a href="#" class="subscribe__link"><img src="img/footer/instagram.svg" alt="Instagram"></a>
+                        <a href="#" class="subscribe__link"><img src="img/footer/whatsApp.svg" alt="WhatsApp"></a>
+                        <a href="#" class="subscribe__link"><img src="img/footer/facebook.svg" alt="Facebook"></a>
+                        <a href="#" class="subscribe__link"><img src="img/footer/youtube.svg" alt="Youtube"></a>
+                    </div>
+                </div>
+                <!-- /.footer__top -->
+
+                <div class="footer__bottom">
+                    <div class="footer__info">
+                        <div class="footer__phone">Контакт-центр<a href="tel:8(495)1909999">8 (495) 190 99 99</a></div>
+                        <a href="#" class="footer__rights">Правовая информация</a>
+                    </div>
+                    <div class="footer__copyright">2021 © McDonald's Corporation</div>
+                </div>
+                <!-- /.footer__bottom -->
+            </div>
+        </footer>
+        <!-- /.footer -->
+    </div>
+    <!-- /.wrapper -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
