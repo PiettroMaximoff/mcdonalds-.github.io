@@ -684,6 +684,10 @@
         margin: 0 6px 15px 6px;
     }
 
+    .item-addition:first-child {
+        margin: 0 6px 15px 0;
+    }
+
     .item-addition:nth-child(-n+6) {
         display: -webkit-box;
         display: -ms-flexbox;
