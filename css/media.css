@@ -658,6 +658,7 @@
         flex-direction: row;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        align-items: flex-start;
     }
 }
 
@@ -685,7 +686,7 @@
     }
 
     .item-addition:first-child {
-        margin: 0 6px 15px 0;
+        margin-left: 0;
     }
 
     .item-addition:nth-child(-n+6) {
@@ -713,15 +714,15 @@
         display: -ms-flexbox;
         display: flex;
     }
-
-    .item-addition:nth-child(4n) {
-        margin: 0 0 40px 0;
-    }
 }
 
 @media (min-width: 768px) and (max-width: 1260px) {
     .item-addition:nth-child(3n) {
         margin: 0 0 15px 6px;
+    }
+
+    .item-addition:nth-child(4n) {
+        margin: 0 6px 15px 0;
     }
 }
 
