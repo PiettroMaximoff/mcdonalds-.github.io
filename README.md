@@ -1,2 +1,2 @@
 # macdonalds-.github.io
-Macdonald's Landing Page
+Mcdonald's Landing Page example
